@@ -130,8 +130,8 @@ a{color:inherit;text-decoration:none}
     <div class="deco" data-deco="stars" aria-hidden="true"></div>
     <h1 class="title">Hi, i’m justine!</h1>
     <button class="start" type="button" data-go="menu" aria-label="Click me to open the menu">
-      <img class="start__img start__img--girl" src="https://www.figma.com/api/mcp/asset/eb119d45-2828-4cee-ba97-6f1e7e8a98b6/5d8f8.png" alt="Pixel art of Justine sitting on a cloud">
-      <img class="start__img start__img--bubble" src="https://www.figma.com/api/mcp/asset/eb119d45-2828-4cee-ba97-6f1e7e8a98b6/dfc66.png" alt="Pixel thought bubble that says click me">
+      <img class="start__img start__img--girl" src="assets/character.gif" alt="Pixel art of Justine sitting on a cloud">
+      <img class="start__img start__img--bubble" src="assets/click-me.gif" alt="Pixel thought bubble that says click me">
     </button>
   </div>
 </section>
@@ -161,7 +161,7 @@ a{color:inherit;text-decoration:none}
       <p>Beyond academics, I have been involved in student organizations as a Freshmen Partner and Student Led Learning Organizer. These experiences allowed me to collaborate with teammates, coordinate activities, guide participants, and contribute to educational programs. They have also helped me develop my teamwork, adaptability, communication, and organizational skills.</p>
       <p>I'm a curious and responsible learner who enjoys exploring new ideas and taking on opportunities to grow. Whether I'm working on an AI project, experimenting with design, or collaborating with others, I'm always looking for ways to improve and turn ideas into meaningful work. I'm excited to continue learning, gain professional experience, and grow as both a technical and creative individual.</p>
     </div>
-    <img class="about__pic" src="https://www.figma.com/api/mcp/asset/eb119d45-2828-4cee-ba97-6f1e7e8a98b6/5d8f8.png" alt="Pixel art portrait of Justine">
+    <img class="about__pic" src="assets/character.gif" alt="Pixel art portrait of Justine">
     <button class="btn-close" type="button" data-go="menu" aria-label="Close about me" style="left:1362rem;top:0"><span>x</span></button>
     <button class="btn-next" type="button" data-go="projects" style="left:1220rem;top:1584rem"><span>NEXT</span></button>
   </div>
@@ -234,10 +234,9 @@ a{color:inherit;text-decoration:none}
 
 <script>
 (function(){
-  var P='https://www.figma.com/api/mcp/asset/';
-  var STAR=P+'eb119d45-2828-4cee-ba97-6f1e7e8a98b6/de1f5.png',
-      C1=P+'f65f20e4-b672-420f-a136-efd30345a555/90ea6.png',
-      C2=P+'f65f20e4-b672-420f-a136-efd30345a555/15a43.png';
+    var STAR='assets/star.gif',
+      C1='assets/cloud-1.gif',
+      C2='assets/cloud-2.gif';
   /* [cx, cy, size, rotation] on 1440x1024 */
   var stars=[[147,145,256,0],[275,701,256,0],[1256,957,256,0],[122,468,124,0],[1266,734,124,0],[1282,393,124,-18.43],[668,984,124,-18.43],[635,76,124,0],[380,346,162,33.66],[132,931,162,33.66],[996,507,162,33.66],[1150,106,162,33.66]];
   /* [x, y, size] inside menu frame (902x577) */
