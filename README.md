@@ -4,10 +4,10 @@ Live site: https://justinejingga.github.io/Justine-s-Portfolio/
 
 ## About
 A pixel-art personal portfolio website built with HTML, CSS, and vanilla JavaScript. The layout was designed in Figma.
+Figma: https://www.figma.com/design/XvWszfFhyZPSc4vrTlw9ev/Justine-s-Portfolio?node-id=0-1&t=emxOeAN3uKnffwUb-1
 
 ## Status
-- Best viewed on desktop.
-- Mobile layout is still in progress.
+- Available on both desktop and mobile view
 - This project will be updated and maintained over time.
 
 ## Assets and Copyright
@@ -18,4 +18,6 @@ All pixel art in the `/assets` folder (stars, clouds, character, and the "click 
 The artwork in `/assets` may not be copied, reused, modified, or redistributed without my written permission. Viewing the website is welcome. Please contact me before using any of the artwork.
 
 ## Contact
-- Email: justinejingga@gmail.com
+- Email: justinejingga@gmail.com / justine.jingga@binus.ac.id
+
+thanks :)
