@@ -29,7 +29,7 @@ a{color:inherit;text-decoration:none}
 .stage{position:relative;width:1440rem;flex:none}
 .stage--home{height:1024rem}
 .stage--about{height:auto;padding:195rem 0 370rem}
-.stage--projects{height:4119rem}
+.stage--projects{height:5459rem}
 .stage--connect{width:1077rem;height:620rem}
 .deco{position:absolute;inset:0;pointer-events:none;overflow:hidden}
 .deco__img{position:absolute;height:auto;aspect-ratio:1/1}
@@ -101,7 +101,12 @@ a{color:inherit;text-decoration:none}
 .slide__title{position:absolute;left:21rem;top:31rem;width:1160rem;font-size:var(--fs-sm);font-weight:400;line-height:normal;text-shadow:0 4rem 4rem rgba(0,0,0,.25)}
 .slide__shot{position:absolute;top:var(--shot-top);width:365rem;height:170rem;border-radius:10rem;box-shadow:0 8rem 4rem var(--c-card-shadow);object-fit:cover;background:#d9d9d9}
 .slide .copy{left:26rem;top:var(--copy-top);width:1203rem}
-.bar{position:absolute;left:95rem;top:3767rem;width:1251rem;height:80rem;display:flex;align-items:center;padding-left:31rem;background:var(--c-card);border-radius:var(--radius);box-shadow:0 var(--sp-1) 4rem var(--c-shadow)}
+.slide__shot--wide{width:640rem;height:359rem;object-fit:contain;background:#f5f5f5}
+.slide__insights{position:absolute;left:700rem;top:var(--shot-top);width:527rem;font-size:var(--fs-xs);line-height:1.4}
+.slide__insights h4{font-size:var(--fs-sm);font-weight:400;color:var(--c-blue-bottom);margin-bottom:8rem}
+.slide__insights ul{list-style:none;display:grid;gap:12rem}
+.slide__insights li{padding-left:22rem;border-left:8rem solid var(--c-proj-b)}
+.bar{position:absolute;left:95rem;top:5107rem;width:1251rem;height:80rem;display:flex;align-items:center;padding-left:31rem;background:var(--c-card);border-radius:var(--radius);box-shadow:0 var(--sp-1) 4rem var(--c-shadow)}
 .stage--projects .btn-close{left:1373rem;top:-7rem}
 
 /* connect */
@@ -188,6 +193,11 @@ a{color:inherit;text-decoration:none}
   .slide__shots{display:flex;gap:10px;margin:14px -18px 0;padding:0 18px 8px;overflow-x:auto;scroll-snap-type:x mandatory}
   .slide__shot{position:static;flex:0 0 80%;width:80%;min-width:0;height:auto;aspect-ratio:365/170;scroll-snap-align:start;box-shadow:0 4px 2px var(--c-card-shadow)}
   .slide .copy{position:static;width:auto;margin-top:14px}
+  .slide__shot--wide{flex-basis:100%;width:100%;aspect-ratio:1320/741}
+  .slide__insights{position:static;width:auto;margin-top:14px;font-size:15px}
+  .slide__insights h4{font-size:20px;margin-bottom:6px}
+  .slide__insights ul{gap:8px}
+  .slide__insights li{padding-left:10px;border-left-width:4px}
   .bar{display:block;font-size:16px}
 
   /* connect */
@@ -207,7 +217,7 @@ a{color:inherit;text-decoration:none}
   <a href="#about" data-go="about" style="--bg:var(--c-about);--bd:var(--c-about-b)">about me</a>
   <a href="#projects" data-go="projects" style="--bg:var(--c-proj);--bd:var(--c-proj-b)">projects</a>
   <a href="#connect" data-go="connect" style="--bg:var(--c-conn);--bd:var(--c-conn-b)">let’s connect</a>
-  <a class="mobile-nav__cv" href="assets/Justine_Ria_Jingga_CV_Internship.pdf" download style="--bg:var(--c-card);--bd:var(--c-card-shadow)">download CV</a>
+  <a class="mobile-nav__cv" href="assets/Justine_Ria_Jingga_CV_Developer_Intern.pdf" download style="--bg:var(--c-card);--bd:var(--c-card-shadow)">download CV</a>
 </nav>
 <main>
 
@@ -217,7 +227,7 @@ a{color:inherit;text-decoration:none}
     <h1 class="title">Hi, i’m justine!</h1>
     <div class="intro">
       <p>AI Student @ BINUS · Computer Vision · UI Design</p>
-      <a class="btn-cv" href="assets/Justine_Ria_Jingga_CV_Internship.pdf" download>download CV</a>
+      <a class="btn-cv" href="assets/Justine_Ria_Jingga_CV_Developer_Intern.pdf" download>download CV</a>
     </div>
     <button class="start" type="button" data-go="menu" aria-label="Click me to open the menu">
       <img class="start__img start__img--girl" src="assets/character.gif" alt="Pixel art of Justine sitting on a cloud">
@@ -246,17 +256,17 @@ a{color:inherit;text-decoration:none}
     <h2 class="title">about me</h2>
     <article class="card"></article>
     <div class="copy about">
-      <p class="about__intro">Hi, I'm Justine! I'm an Artificial Intelligence student at BINUS University who enjoys the space where AI meets design. I've trained an object detection model with YOLO and an image classification model with ResNet18, and I like turning ideas into clean, friendly interfaces in Figma. Right now I'm looking for an internship where I can apply my skills, learn from experienced professionals, and keep growing in AI.</p>
+      <p class="about__intro">Hi, I'm Justine! I'm an Artificial Intelligence student at BINUS University who enjoys the space where AI meets design. I've trained an object detection model with YOLO and an image classification model with ResNet18, and I like turning ideas into clean, friendly interfaces in Figma. Right now I'm looking for a 12-month Developer or AI internship where I can grow by working on real projects with experienced developers.</p>
 
       <ul class="facts">
-        <li><b>Education</b> S1 Artificial Intelligence, BINUS University (2024 – present)</li>
+        <li><b>Education</b> S1 Artificial Intelligence, BINUS University (2024 – present), GPA 3.60</li>
         <li><b>Based in</b> Jakarta, Indonesia</li>
-        <li><b>Languages</b> Indonesian (fluent), English (intermediate), Mandarin (basic)</li>
+        <li><b>Languages</b> Indonesian (native), English (intermediate), Mandarin (basic)</li>
       </ul>
 
       <h3 class="about__h">skills</h3>
       <ul class="tags">
-        <li>Computer Vision</li><li>Object Detection</li><li>Image Classification</li><li>Machine Learning</li><li>NLP</li><li>Figma</li><li>2D Design</li><li>HTML &amp; CSS</li><li>MySQL</li>
+        <li>Computer Vision</li><li>Machine Learning</li><li>Deep Learning</li><li>HTML &amp; CSS</li><li>Git &amp; GitHub</li><li>Figma</li><li>Python</li><li>SQL (MySQL)</li><li>Excel</li><li>Power BI</li>
       </ul>
       <ul class="tags tags--soft">
         <li>Teamwork</li><li>Communication</li><li>Adaptability</li><li>Creativity</li>
@@ -333,9 +343,27 @@ a{color:inherit;text-decoration:none}
       <div class="copy"><p>LibrAi is a web-based book discovery and recommendation platform designed to help users explore books based on their interests. The platform allows users to search for book titles, filter books by genre, receive AI-powered book recommendations, and access AI-generated book summaries.</p><p>My Contribution:<br>Contributed to the development of the book search and filtering features, enabling users to find books by title and browse books by genre.</p><p>Repository: <a href="https://github.com/Akmalp292/Hacktiv8" target="_blank" rel="noopener">https://github.com/Akmalp292/Hacktiv8</a></p></div>
     </article>
 
+    <article class="slide slide--data" style="top:3790rem;--h:1245rem;--shot-top:108rem;--copy-top:507rem">
+      <div class="slide__card"></div>
+      <h3 class="slide__title">Superstore Sales Analysis &amp; Dashboard (Personal Project)</h3>
+      <div class="slide__shots">
+      <img class="slide__shot slide__shot--wide" loading="lazy" style="left:24rem" src="assets/superstore-dashboard.jpg" alt="Power BI dashboard with sales and profit KPIs, profit by sub-category, monthly sales trend, sales and margin by region, and profit by discount level">
+      </div>
+      <div class="slide__insights">
+        <h4>key insights</h4>
+        <ul>
+          <li>Technology is the most profitable category (about 145K profit, 17% margin).</li>
+          <li>Sales grew about 51% from 2014 to 2017, peaking in Sep, Nov and Dec.</li>
+          <li>Every discount of 30% or more ends in a loss, about 135K in total.</li>
+          <li>West is the best region; Central has the lowest margin (7.9%).</li>
+        </ul>
+      </div>
+      <div class="copy"><p>An end-to-end data analysis of a US retail store (2014–2017) to find out what drives sales and profit. I answered 5 business questions and turned the results into an interactive dashboard.</p><p>What I Did:<br>Cleaned 9,993 rows in Excel with Power Query: fixed date and decimal issues caused by regional settings, removed a duplicate row, and added Year, Month, Profit Margin and Regional Manager (XLOOKUP) columns. Answered the business questions with PivotTables, calculated fields and DAX measures, then built a Power BI dashboard with KPI cards, trend and comparison charts, and Year/Region slicers.</p><p>Recommendation: keep discounts below 30%, especially for Tables and in the Central region, to protect profit.</p><p>Repository: <a href="https://github.com/justinejingga/superstore-sales-analysis" target="_blank" rel="noopener">https://github.com/justinejingga/superstore-sales-analysis</a></p><p>Files: <a href="https://github.com/justinejingga/superstore-sales-analysis/blob/main/superstore.xlsx" target="_blank" rel="noopener">Excel workbook (.xlsx)</a> · <a href="https://github.com/justinejingga/superstore-sales-analysis/blob/main/superstore-dashboard.pbix" target="_blank" rel="noopener">Power BI dashboard (.pbix)</a></p></div>
+    </article>
+
     <div class="bar"><p>And more at my github account: <a href="https://github.com/jungstin3" target="_blank" rel="noopener">https://github.com/jungstin3</a></p></div>
     <button class="btn-close" type="button" data-go="menu" aria-label="Close projects"><span>x</span></button>
-    <button class="btn-next" type="button" data-go="menu" style="left:1221rem;top:3992rem"><span>Back</span></button>
+    <button class="btn-next" type="button" data-go="menu" style="left:1221rem;top:5332rem"><span>Back</span></button>
   </div>
 </section>
 
@@ -384,7 +412,7 @@ a{color:inherit;text-decoration:none}
   document.querySelectorAll('[data-deco]').forEach(function(b){
     var t=b.getAttribute('data-deco');
     if(t==='stars')starSet(b,1440,1024,0);
-    if(t==='stars-tall'){[0,1344,2127,3204].forEach(function(o){starSet(b,1440,4119,o);});}
+    if(t==='stars-tall'){[0,1344,2127,3204,4281].forEach(function(o){starSet(b,1440,5459,o);});}
     if(t==='clouds')cloudSet(b,902,577,1,0,0);
     if(t==='clouds-xl')cloudSet(b,1440,1694,1.4534,-20,0);
     if(t==='clouds-connect')cloudSet(b,1077,620,1.158,0,168);
